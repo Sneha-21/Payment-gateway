@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment gateway integration</title>
+    <link rel="stylesheet" href="styles1.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <span id="name">TSF Charitable Trust</span>
+    </nav>
+    <div class="hero-image">
+      <blockquote>
+        <p>
+          "Not all of us can do great things. But we can do small things with
+          great love"
+        </p>
+        <footer>-Mother Teresa</footer>
+        <form>
+          <script
+            src="https://checkout.razorpay.com/v1/payment-button.js"
+            data-payment_button_id="pl_I9bBBezyXEePaV"
+            async
+          ></script>
+        </form>
+      </blockquote>
+    </div>
+    <div class="blockquote1">
+      <h2>Campaign Story</h2>
+      <br />
+      <p>
+        In today’s fast-paced and dynamic world education is one of the most
+        promising practices to ensure that we establish an effectively shaped
+        society and hence a developed country. But do you believe that every
+        child in India has the chance to pursue their educational goals? Do they
+        have access to basic education, let alone a degree? The answer in your
+        mind is probably, NO! According to a recent Oxford University report,
+        around 51% of Indian students drop out by the age of 19. The reasons
+        vary from lack of educational infrastructure to forced child labour or
+        bonded labour. But the primary cause is poverty. For a developing
+        country like India, we need to streamline our actions to upkeep with our
+        high educational standards. Nelson Mandela once said - “Education is the
+        most powerful weapon which you can use to change the world.” The
+        underprivileged children in India need our support to hold this weapon
+        of education in their fight against poverty, and hunger. We firmly
+        support the education of such underprivileged children who cannot
+        acquire their very own right to education. Children from rural areas,
+        especially, need your support. With the correct support system in place,
+        they will bloom like a flower and achieve their ambitions. We need your
+        help to accomplish this goal of educating numerous underprivileged
+        children. They hold the future of our country in their hands and their
+        education should not stop at any cost. Let’s join hands to help our
+        younger citizens to steer their future to great heights!
+      </p>
+      <img src="education.jpeg" style="width: 70%" />
+    </div>
+    <br />
+    <br />
+    <div class="container">
+      <div style="text-align: center">
+        <h2>Contact Us</h2>
+      </div>
+      <div class="row">
+        <div
+          class="column"
+          style="display: flex; flex-direction: column; align-items: center"
+        >
+          <div class="phone text-box">
+            <img
+              class="contact-svg"
+              src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET21.jpg"
+            />
+            <p class="contact-text">+91 1234567890</p>
+          </div>
+          <div class="email text-box">
+            <img
+              class="contact-svg"
+              src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET22.jpg"
+            />
+            <p class="contact-text">tsfcharity@gmail.com</p>
+          </div>
+          <div class="address text-box">
+            <img
+              class="contact-svg"
+              src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET23.jpg"
+            />
+            <p class="contact-text">10, new street,chennai</p>
+          </div>
+
+          <div class="social-media-links">
+            <a href="">
+              <img
+                class="social-svg"
+                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg"
+              />
+            </a>
+            <a href="">
+              <img
+                class="social-svg"
+                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg"
+              />
+            </a>
+            <a href="">
+              <img
+                class="social-svg"
+                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg"
+              />
+            </a>
+            <a href="">
+              <img
+                class="social-svg"
+                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="column">
+          <form>
+            <label for="fname">Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+            />
+            <label for="email">Email</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Your Email.."
+            />
+            <label for="subject">Subject</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height: 100px"
+            ></textarea>
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
